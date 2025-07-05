@@ -110,4 +110,4 @@ if __name__ == '__main__':
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
     print("Bot is running via Webhook...")
     app.run_webhook(listen="0.0.0.0", port=8080, url_path="BOT_TOKEN_HERE",
-                    webhook_url="https://yourrenderdomain.onrender.com/BOT_TOKEN_HERE")
+                    webhook_url="https://yourrenderdomain.onrender.com/8065124749:AAH1viTOHcqh8JyHkCYWTetvIfM0Cs8ImRM")
